@@ -1,0 +1,59 @@
+{
+  "recommended_combination": "CNN2D+MC_Dropout",
+  "decision_score": 0.59999999999856,
+  "rationale": "Highest weighted score (60% accuracy, 40% calibration-penalty) among the 9 combination(s) evaluated so far.",
+  "scored_combinations": {
+    "CNN2D+MC_Dropout": 0.6,
+    "CNN2D+Deep_Ensembles": 0.2756,
+    "CNN2D+BEDL": 0.3867,
+    "DenseNet2D+MC_Dropout": -0.4,
+    "DenseNet2D+Deep_Ensembles": 0.1718,
+    "DenseNet2D+BEDL": -0.3896,
+    "ViT2D+MC_Dropout": 0.2261,
+    "ViT2D+Deep_Ensembles": 0.2586,
+    "ViT2D+BEDL": 0.3019
+  },
+  "statistical_significance_vs_runner_ups": {
+    "CNN2D+Deep_Ensembles": {
+      "significant_at_0.05": true,
+      "paired_t_pvalue": 0.0036,
+      "wilcoxon_pvalue": 0.0047
+    },
+    "CNN2D+BEDL": {
+      "significant_at_0.05": true,
+      "paired_t_pvalue": 0.0127,
+      "wilcoxon_pvalue": 0.0143
+    },
+    "DenseNet2D+MC_Dropout": {
+      "significant_at_0.05": true,
+      "paired_t_pvalue": 0.0,
+      "wilcoxon_pvalue": 0.0
+    },
+    "DenseNet2D+Deep_Ensembles": {
+      "significant_at_0.05": true,
+      "paired_t_pvalue": 0.0001,
+      "wilcoxon_pvalue": 0.0003
+    },
+    "DenseNet2D+BEDL": {
+      "significant_at_0.05": true,
+      "paired_t_pvalue": 0.0,
+      "wilcoxon_pvalue": 0.0
+    },
+    "ViT2D+MC_Dropout": {
+      "significant_at_0.05": false,
+      "paired_t_pvalue": 0.2093,
+      "wilcoxon_pvalue": 0.2059
+    },
+    "ViT2D+Deep_Ensembles": {
+      "significant_at_0.05": false,
+      "paired_t_pvalue": 0.2093,
+      "wilcoxon_pvalue": 0.2059
+    },
+    "ViT2D+BEDL": {
+      "significant_at_0.05": false,
+      "paired_t_pvalue": 0.2093,
+      "wilcoxon_pvalue": 0.2059
+    }
+  },
+  "significance_summary": "Recommended combination's accuracy advantage is statistically significant (p<0.05) over 5/8 other evaluated combinations. With a small paired test set on this demo dataset, a non-significant result often just reflects limited sample size, not equivalent performance."
+}

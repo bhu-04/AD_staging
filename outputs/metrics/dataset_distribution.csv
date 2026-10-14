@@ -1,0 +1,5 @@
+Dataset Split,CN,MCI,AD,Total
+Train,56,56,112,224
+Val,12,12,24,48
+Test,12,12,24,48
+Total,80,80,160,320

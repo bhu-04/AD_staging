@@ -82,13 +82,7 @@ def deep_ensemble_predict(model_fn, checkpoint_paths: list, x: torch.Tensor,
 
     p_mean = probs_stack.mean(dim=0)
     y_pred = p_mean.argmax(dim=1)
-    if probs_stack.shape[0] > 1:
-        variance = probs_stack.var(dim=0, unbiased=False).mean(dim=1)
-    else:
-        variance = torch.zeros(
-            probs_stack.shape[1],
-            device=probs_stack.device
-    )
+    variance = probs_stack.var(dim=0).mean(dim=1)
     eps = 1e-12
     entropy = -(p_mean * torch.log(p_mean + eps)).sum(dim=1)
     return {"p_mean": p_mean, "y_pred": y_pred, "variance": variance, "entropy": entropy}

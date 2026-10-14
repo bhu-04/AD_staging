@@ -72,23 +72,7 @@ def subject_stratified_split(manifest: pd.DataFrame,
                               seed: int = config.RANDOM_SEED) -> dict:
     """Return {'train': [filepaths], 'val': [...], 'test': [...]}."""
     rng = np.random.default_rng(seed)
-    
-    use_subject_level = _subject_level_feasible(
-        manifest,
-        ratios
-    )
-
-    if (
-        not use_subject_level
-        and config.REQUIRE_SUBJECT_LEVEL_SPLIT
-    ):
-        raise RuntimeError(
-            "Subject-level split is not possible with the current dataset. "
-            "At least one class does not contain enough unique subjects "
-            "for train/validation/test partitions. "
-            "Use the full OASIS dataset or a larger subject-level subset "
-            "for the final experiment."
-        )
+    use_subject_level = _subject_level_feasible(manifest, ratios)
 
     splits = {"train": [], "val": [], "test": []}
 

@@ -1,53 +1,84 @@
-# --- Project-specific data & outputs ---
-data/
-data_sub/
-outputs/
-outputs_legacy/
-outputs_new/
 
-# --- Python ---
+# =========================
+# Datasets - never upload
+# =========================
+/data/
+/data_complete/
+/data_sub/
+
+# =========================
+# Archived output folders
+# Upload ZIP archives, not these folders
+# =========================
+/outputs_legacy/
+/outputs_new/
+/outputs2/
+
+# =========================
+# Python cache and compiled files
+# =========================
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-build/
-dist/
-*.egg-info/
-.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
-# --- Virtual environments ---
-.venv/
+# =========================
+# Virtual environments
+# =========================
 venv/
+.venv/
 env/
 ENV/
 
-# --- Jupyter ---
-.ipynb_checkpoints/
-
-# --- Model checkpoints / large artifacts ---
+# =========================
+# Model checkpoints outside outputs/
+# =========================
 *.pt
 *.pth
 *.ckpt
 *.h5
-*.pkl
+*.keras
 *.onnx
 
-# --- Logs ---
-*.log
-logs/
-runs/
-wandb/
-mlruns/
+# Keep checkpoint files inside the requested outputs folder
+!/outputs/**/*.pt
+!/outputs/**/*.pth
+!/outputs/**/*.ckpt
+!/outputs/**/*.h5
+!/outputs/**/*.keras
+!/outputs/**/*.onnx
 
-# --- Environment / secrets ---
+# =========================
+# Secrets and local settings
+# =========================
 .env
-*.env
-.envrc
+.env.*
+!.env.example
 
-# --- OS / editor junk ---
+# =========================
+# Logs and temporary files
+# =========================
+*.log
+*.tmp
+*.bak
 .DS_Store
 Thumbs.db
+
+# =========================
+# IDE files
+# =========================
 .vscode/
 .idea/
-*.swp
+# Datasets
+/data/
+/data_complete/
+
+# Old output folders
+/outputs_legacy/
+/outputs_new/
+/outputs2/
+
+# Local archives - do not upload
+/outputs_legacy_archive.zip
+/outputs_new_archive.zip

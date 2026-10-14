@@ -46,7 +46,6 @@ logger = logging.getLogger(__name__)
 def logits_to_alpha(logits: torch.Tensor) -> torch.Tensor:
     """Non-negative evidence via softplus, then alpha = evidence + 1
     (Algorithm 7's Evidence Layer -> Dirichlet Parameters step)."""
-    logits = torch.clamp(logits, -10.0, 10.0)
     evidence = F.softplus(logits)
     return evidence + 1.0
 
@@ -81,55 +80,24 @@ def dirichlet_aleatoric(alpha: torch.Tensor) -> torch.Tensor:
 # ---------------------------------------------------------------------------
 
 def _kl_dirichlet_to_uniform(alpha: torch.Tensor) -> torch.Tensor:
-
-    alpha = torch.clamp(
-        alpha,
-        min=1.0 + 1e-6,
-        max=100.0,
-    )
-
+    """KL(Dir(alpha) || Dir(1,...,1)), used to penalize evidence assigned
+    to classes that are NOT the ground truth (misleading evidence)."""
     K = alpha.shape[1]
-
     beta = torch.ones_like(alpha)
+    S_alpha = alpha.sum(dim=1, keepdim=True)
+    S_beta = beta.sum(dim=1, keepdim=True)
 
-    S_alpha = alpha.sum(
-        dim=1,
-        keepdim=True,
-    )
+    lgamma = torch.lgamma
+    term1 = lgamma(S_alpha).squeeze(1) - lgamma(torch.tensor(float(K)))
+    term1 = term1 - lgamma(alpha).sum(dim=1)
+    term1 = term1 + lgamma(beta).sum(dim=1) - lgamma(S_beta).squeeze(1)
 
-    S_beta = beta.sum(
-        dim=1,
-        keepdim=True,
-    )
-
-    term1 = (
-        torch.lgamma(S_alpha)
-        - torch.lgamma(S_beta)
-        - torch.lgamma(alpha).sum(dim=1, keepdim=True)
-        + torch.lgamma(beta).sum(dim=1, keepdim=True)
-    )
-
-    term2 = (
-        (alpha - beta)
-        * (
-            torch.digamma(alpha)
-            - torch.digamma(S_alpha)
-        )
-    ).sum(
-        dim=1,
-        keepdim=True,
-    )
-
-    kl = term1 + term2
-
-    return torch.clamp(
-        kl.squeeze(1),
-        min=0.0,
-    )
+    term2 = ((alpha - beta) * (torch.digamma(alpha) - torch.digamma(S_alpha))).sum(dim=1)
+    return term1 + term2
 
 
 def evidential_loss(logits: torch.Tensor, y: torch.Tensor, num_classes: int,
-                     epoch: int, annealing_epochs: int = config.BEDL_ANNEALING_EPOCHS,
+                     epoch: int, annealing_epochs: int = 10,
                      class_weights: torch.Tensor = None) -> torch.Tensor:
     """Expected cross-entropy under the Dirichlet (digamma form) plus an
     annealed KL term that only penalizes evidence for the wrong classes,
@@ -180,7 +148,6 @@ def _run_epoch_bedl(model, loader, optimizer, device, train: bool, epoch: int,
                                     class_weights=class_weights)
             if train:
                 loss.backward()
-                torch.nn.utils.clip_grad_norm_(model.parameters(), getattr(config, "GRAD_CLIP_NORM", 1.0))
                 optimizer.step()
             alpha = logits_to_alpha(logits)
             preds = alpha.argmax(dim=1)
@@ -205,13 +172,12 @@ def _train_bedl_once(model, train_loader, val_loader, epochs, lr, checkpoint_pat
                       class_weights: torch.Tensor = None):
     torch.manual_seed(seed)
     model.to(device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=getattr(config, "WEIGHT_DECAY", 1e-4))
+    optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
     history = {"train_loss": [], "train_acc": [], "val_loss": [], "val_acc": []}
     best_val_acc, best_val_loss = -1.0, float("inf")
     best_val_preds = None
     val_labels = torch.cat([y for _, y in val_loader]).numpy()
-    patience_counter = 0
 
     for epoch in range(1, epochs + 1):
         train_loss, train_acc, _ = _run_epoch_bedl(model, train_loader, optimizer, device, True, epoch,
@@ -226,51 +192,9 @@ def _train_bedl_once(model, train_loader, val_loader, epochs, lr, checkpoint_pat
 
         improved = (val_acc > best_val_acc) or (val_acc == best_val_acc and val_loss < best_val_loss)
         if improved:
-            best_val_acc = val_acc
-            best_val_loss = val_loss
+            best_val_acc, best_val_loss = val_acc, val_loss
             best_val_preds = val_preds
-
-            torch.save(
-                model.state_dict(),
-                checkpoint_path
-            )
-
-            patience_counter = 0
-
-        else:
-            patience_counter += 1
-        
-        # --------------------------------------------------
-        # EARLY DEGENERACY CHECK
-        # --------------------------------------------------
-
-        if (
-            epoch >= config.MIN_EPOCHS
-            and len(np.unique(val_preds)) <= 1
-        ):
-            logger.warning(
-                "[BEDL] Degenerate predictions at epoch %d. "
-                "Stopping attempt.",
-                epoch
-            )
-            break
-
-
-        # --------------------------------------------------
-        # EARLY STOPPING
-        # --------------------------------------------------
-
-        if (
-            epoch >= config.MIN_EPOCHS
-            and patience_counter >= config.EARLY_STOPPING_PATIENCE
-        ):
-            logger.info(
-                "[BEDL] Early stopping at epoch %d "
-                "(no validation improvement for %d epochs).",
-                epoch,
-                config.EARLY_STOPPING_PATIENCE
-            )
-            break
+            torch.save(model.state_dict(), checkpoint_path)
 
         logger.info(
             "[BEDL] Epoch %2d/%2d | train_loss=%.4f train_acc=%.3f | val_loss=%.4f val_acc=%.3f%s",
@@ -291,7 +215,7 @@ def train_bedl(model, train_loader, val_loader,
                 lr: float = config.LEARNING_RATE,
                 checkpoint_path: Path = config.CHECKPOINT_DIR / "bedl_best.pt",
                 device: str = "cpu",
-                max_attempts: int = config.BEDL_MAX_ATTEMPTS,
+                max_attempts: int = 3,
                 base_seed: int = config.RANDOM_SEED) -> dict:
     """Same retry-on-degenerate contract as train.train_model, but trains
     with the evidential loss and checks degeneracy against alpha-argmax

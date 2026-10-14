@@ -1,0 +1,321 @@
+filepath,raw_folder,class_label,class_idx,subject_id,session,scan,slice_idx
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_137.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_138.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,138
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_139.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,139
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_140.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,140
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_141.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,141
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_142.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,142
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_143.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,143
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_144.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,144
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_145.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,145
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_146.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,146
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_147.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,147
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_148.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_149.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_150.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_151.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_152.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_153.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_154.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_155.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_156.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_157.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_158.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_159.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-2_160.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-2,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_100.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_101.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_102.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_103.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_104.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_105.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,105
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_106.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,106
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_107.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,107
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_108.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,108
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_109.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,109
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_110.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,110
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_111.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,111
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_112.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,112
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_113.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,113
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_114.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,114
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_115.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,115
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_116.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,116
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_117.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,117
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_118.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,118
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_119.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,119
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_120.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,120
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_121.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,121
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-3_122.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-3,122
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_128.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,128
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_129.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,129
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_130.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,130
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_131.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,131
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_132.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_133.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,133
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_134.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,134
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_135.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,135
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_136.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,136
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_137.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_138.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,138
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_139.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,139
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_140.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,140
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_141.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,141
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_142.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,142
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_143.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,143
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_144.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,144
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_145.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,145
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_146.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,146
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_147.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,147
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_148.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_149.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_150.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_151.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_152.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_153.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_154.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_155.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_156.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_157.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_158.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_159.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Moderate dementia\OAS1_0351_MR1_mpr-4_160.jpg,Moderate dementia,AD,2,OAS1_0351,MR1,mpr-4,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-2_158.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-2,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-2_159.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-2,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-2_160.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-2,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_100.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_101.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_102.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_103.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_104.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_105.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,105
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_106.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,106
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_107.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,107
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_108.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,108
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_109.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,109
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_110.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,110
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_111.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,111
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_112.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,112
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_113.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,113
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_114.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,114
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_115.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,115
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_116.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,116
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_117.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,117
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_118.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,118
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_119.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,119
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_120.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,120
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_121.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,121
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_122.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,122
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_123.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,123
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_124.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,124
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_125.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,125
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_126.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,126
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_127.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,127
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_128.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,128
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_129.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,129
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_130.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,130
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_131.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,131
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_132.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_133.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,133
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_134.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,134
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_135.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,135
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_136.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,136
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_137.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_138.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,138
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_139.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,139
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_140.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,140
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_141.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,141
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_142.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,142
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_143.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,143
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_144.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,144
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_145.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,145
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_146.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,146
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_147.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,147
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_148.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_149.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_150.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_151.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_152.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_153.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_154.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_155.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_156.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_157.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_158.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_159.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-3_160.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-3,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_100.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_101.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_102.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_103.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_104.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_105.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,105
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_106.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,106
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_107.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,107
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_108.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,108
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_109.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,109
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_110.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,110
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_111.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,111
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_112.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,112
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_113.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,113
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_159.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\Mild dementia\OAS1_0382_MR1_mpr-4_160.jpg,Mild dementia,AD,2,OAS1_0382,MR1,mpr-4,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_148.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_149.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_150.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_151.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_152.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_153.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_154.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_155.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_156.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_157.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_158.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_159.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-1_160.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-1,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_100.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_101.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_102.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_103.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_104.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_105.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,105
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_106.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,106
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_107.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,107
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_108.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,108
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_109.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,109
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_110.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,110
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_111.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,111
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_112.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,112
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_113.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,113
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_114.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,114
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_115.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,115
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_116.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,116
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_117.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,117
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_118.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,118
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_119.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,119
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_120.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,120
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_121.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,121
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_122.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,122
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_123.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,123
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_124.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,124
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_125.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,125
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_126.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,126
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_127.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,127
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_128.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,128
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_129.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,129
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_130.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,130
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_131.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,131
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_132.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_133.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,133
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_134.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,134
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_135.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,135
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_136.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,136
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-2_137.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-2,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_132.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_133.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,133
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_134.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,134
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_135.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,135
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_136.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,136
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_137.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_138.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,138
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_139.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,139
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_140.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,140
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_141.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,141
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_142.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,142
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_143.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,143
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_144.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,144
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_145.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,145
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_146.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,146
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_147.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,147
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_148.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_149.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_150.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_151.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_152.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_153.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_154.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_155.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_156.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_157.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_158.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_159.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\non demented\OAS1_0381_MR1_mpr-4_160.jpg,non demented,CN,0,OAS1_0381,MR1,mpr-4,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_128.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,128
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_129.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,129
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_130.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,130
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_131.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,131
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_132.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_133.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,133
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_134.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,134
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_135.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,135
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_136.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,136
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_137.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,137
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_138.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,138
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_139.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,139
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_140.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,140
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_141.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,141
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_142.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,142
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_143.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,143
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_144.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,144
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_145.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,145
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_146.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,146
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_147.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,147
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_148.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,148
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_149.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,149
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_150.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,150
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_151.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,151
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_152.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,152
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_153.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_154.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_155.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_156.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_157.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_158.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_159.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0288_MR1_mpr-4_160.jpg,very mild demented,MCI,1,OAS1_0288,MR1,mpr-4,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_100.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_101.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_102.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_103.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_104.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_105.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,105
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_106.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,106
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_107.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,107
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_108.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,108
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_109.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,109
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_110.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,110
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_111.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,111
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_112.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,112
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_113.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,113
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_114.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,114
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_115.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,115
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_116.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,116
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_117.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,117
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_118.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,118
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_119.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,119
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_120.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,120
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_121.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,121
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_122.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,122
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_123.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,123
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_124.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,124
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_125.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,125
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_126.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,126
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_127.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,127
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_128.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,128
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_129.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,129
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_130.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,130
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_131.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,131
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-1_132.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-1,132
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_153.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,153
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_154.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,154
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_155.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,155
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_156.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,156
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_157.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,157
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_158.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,158
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_159.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,159
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0290_MR1_mpr-4_160.jpg,very mild demented,MCI,1,OAS1_0290,MR1,mpr-4,160
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_100.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,100
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_101.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,101
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_102.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,102
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_103.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,103
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_104.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,104
+C:\Users\bhuva\Downloads\TARP_imp\ad_staging\data\oasis_subset\very mild demented\OAS1_0298_MR1_mpr-1_105.jpg,very mild demented,MCI,1,OAS1_0298,MR1,mpr-1,105

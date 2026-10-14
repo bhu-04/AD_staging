@@ -27,7 +27,7 @@ verified step by step, not just at the final report.
 """
 import json
 
-from src import config, data_acquisition, splitting, augmentation, dataset
+from src import config, data_acquisition, splitting, augmentation, dataset,reporting
 from src import comparative_evaluation as ce
 from src import visualize_pipeline as viz
 from src.models.cnn2d import CNN2D
@@ -80,6 +80,44 @@ def main():
     print("\nDecision Layer recommendation:")
     print(json.dumps(study["decision"], indent=2))
     ce.plot_comparison_bars(study["comparison_df"], config.PLOTS_DIR / "combination_comparison.png")
+
+    print("\n" + "=" * 70)
+    print("TEAM-4 COMPLETE RESULTS REPORT")
+    print("=" * 70)
+    tables = reporting.build_all_tables(
+        study, manifest, split_result, MODEL_CLASSES, loaders
+    )
+    workbook = reporting.save_tables(tables)
+    summary_json = reporting.save_summary_json(tables, study)
+    figures_dir = reporting.generate_figures(tables, study)
+
+    print("\nDataset Distribution:")
+    print(tables["dataset_distribution"].to_string(index=False))
+    print("\nBaseline Performance:")
+    print(tables["baseline"].round(4).to_string())
+    print("\n3x3 Architecture-UQ Results:")
+    print(tables["architecture_uq"].round(4).to_string(index=False))
+    print("\nClass-Wise Performance (best UQ per architecture):")
+    print(tables["classwise"].round(4).to_string(index=False))
+    print("\nUncertainty Quality and Calibration:")
+    print(tables["uq_quality"].round(5).to_string(index=False))
+    print("\nCorrect vs Incorrect Prediction Uncertainty:")
+    print(tables["correct_incorrect"].round(6).to_string(index=False))
+    print("\nComputational Efficiency:")
+    print(tables["computational_efficiency"].round(4).to_string(index=False))
+    print("\nStatistical Comparison (bootstrap Mean±SD and 95% CI):")
+    print(tables["statistical_comparison"].to_string(index=False))
+    print("\nStatistical Significance Between Architectures:")
+    print(tables["architecture_significance"].round(6).to_string(index=False))
+    print("\nStatistical Significance Between UQ Methods:")
+    print(tables["uq_significance"].round(6).to_string(index=False))
+    print("\nArchitecture x UQ Statistical Analysis:")
+    print(tables["architecture_uq_anova"].round(6).to_string(index=False))
+    print("\nFinal Ranking:")
+    print(tables["ranking"].round(5).to_string(index=False))
+    print(f"\nComplete Excel workbook: {workbook}")
+    print(f"Complete JSON summary: {summary_json}")
+    print(f"Required figures: {figures_dir}")
 
     print("\n" + "=" * 70)
     print("STAGE 5/5: Visual Output Pipeline for the RECOMMENDED combination")

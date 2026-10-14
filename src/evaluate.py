@@ -19,7 +19,7 @@ from __future__ import annotations
 import json
 import logging
 from pathlib import Path
-
+import torch
 import numpy as np
 import pandas as pd
 import matplotlib
@@ -176,6 +176,31 @@ def plot_risk_coverage(rc_df: pd.DataFrame, out_path: Path):
     fig.savefig(out_path, dpi=150)
     plt.close(fig)
 
+@torch.no_grad()
+def deterministic_predict_dataset(model, loader, device="cpu"):
+    model.to(device)
+    model.eval()
+
+    all_p_mean = []
+    all_y_pred = []
+    all_y_true = []
+
+    for x, y in loader:
+        x = x.to(device)
+
+        logits = model(x)
+        p_mean = torch.softmax(logits, dim=1)
+        y_pred = p_mean.argmax(dim=1)
+
+        all_p_mean.append(p_mean.cpu())
+        all_y_pred.append(y_pred.cpu())
+        all_y_true.append(y)
+
+    return {
+        "p_mean": torch.cat(all_p_mean).numpy(),
+        "y_pred": torch.cat(all_y_pred).numpy(),
+        "y_true": torch.cat(all_y_true).numpy(),
+    }
 
 def run_full_evaluation(mc_results: dict, combination_name: str = "CNN2D + MC_Dropout") -> dict:
     y_true = mc_results["y_true"]

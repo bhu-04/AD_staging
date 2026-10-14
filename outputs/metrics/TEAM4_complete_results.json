@@ -1,0 +1,158 @@
+{
+  "recommended_combination": "3D CNN+MC Dropout",
+  "selection_rule": "Weighted multi-objective score: Accuracy 30%, Macro-F1 20%, ROC-AUC 15%, ECE 15%, Brier 10%, inference cost 10%.",
+  "best_by_architecture": {
+    "CNN2D": "CNN2D+MC_Dropout",
+    "DenseNet2D": "DenseNet2D+Deep_Ensembles",
+    "ViT2D": "ViT2D+MC_Dropout"
+  },
+  "dataset_distribution": [
+    {
+      "Dataset Split": "Train",
+      "CN": 56,
+      "MCI": 56,
+      "AD": 112,
+      "Total": 224
+    },
+    {
+      "Dataset Split": "Val",
+      "CN": 12,
+      "MCI": 12,
+      "AD": 24,
+      "Total": 48
+    },
+    {
+      "Dataset Split": "Test",
+      "CN": 12,
+      "MCI": 12,
+      "AD": 24,
+      "Total": 48
+    },
+    {
+      "Dataset Split": "Total",
+      "CN": 80,
+      "MCI": 80,
+      "AD": 160,
+      "Total": 320
+    }
+  ],
+  "ranking": [
+    {
+      "Rank": 1,
+      "Architecture": "3D CNN",
+      "UQ Method": "MC Dropout",
+      "Accuracy": 0.6666666666666666,
+      "F1 \u2191": 0.7000000000000001,
+      "AUC \u2191": 0.9971064814814815,
+      "ECE \u2193": 0.1924454706410567,
+      "Brier \u2193": 0.4105160319050504,
+      "Inference Cost \u2193": 0.0148,
+      "Final Score": 0.9766276013588961,
+      "Final Recommendation": "Best overall"
+    },
+    {
+      "Rank": 2,
+      "Architecture": "3D CNN",
+      "UQ Method": "Evidential DL",
+      "Accuracy": 0.5416666666666666,
+      "F1 \u2191": 0.5721814417466592,
+      "AUC \u2191": 0.986111111111111,
+      "ECE \u2193": 0.23869037131468454,
+      "Brier \u2193": 0.5260964522451467,
+      "Inference Cost \u2193": 0.0031,
+      "Final Score": 0.8340828758062909,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 3,
+      "Architecture": "3D CNN",
+      "UQ Method": "Deep Ensemble",
+      "Accuracy": 0.5,
+      "F1 \u2191": 0.5,
+      "AUC \u2191": 1.0,
+      "ECE \u2193": 0.309638649225235,
+      "Brier \u2193": 0.661416445873993,
+      "Inference Cost \u2193": 0.006,
+      "Final Score": 0.7469215875717744,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 4,
+      "Architecture": "ViT/Swin",
+      "UQ Method": "Evidential DL",
+      "Accuracy": 0.5,
+      "F1 \u2191": 0.2222222222222222,
+      "AUC \u2191": 0.8967978395061729,
+      "ECE \u2193": 0.273137300585707,
+      "Brier \u2193": 0.5686683094969721,
+      "Inference Cost \u2193": 0.0014,
+      "Final Score": 0.6392507115840903,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 5,
+      "Architecture": "ViT/Swin",
+      "UQ Method": "Deep Ensemble",
+      "Accuracy": 0.5,
+      "F1 \u2191": 0.2222222222222222,
+      "AUC \u2191": 0.8404706790123457,
+      "ECE \u2193": 0.33317194879055023,
+      "Brier \u2193": 0.7553195744684714,
+      "Inference Cost \u2193": 0.0042,
+      "Final Score": 0.5816331345855225,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 6,
+      "Architecture": "DenseNet-121",
+      "UQ Method": "Deep Ensemble",
+      "Accuracy": 0.3958333333333333,
+      "F1 \u2191": 0.35366795366795367,
+      "AUC \u2191": 0.6425540123456791,
+      "ECE \u2193": 0.24545593063036603,
+      "Brier \u2193": 0.9519959747013029,
+      "Inference Cost \u2193": 0.0078,
+      "Final Score": 0.48403733708807417,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 7,
+      "Architecture": "ViT/Swin",
+      "UQ Method": "MC Dropout",
+      "Accuracy": 0.5,
+      "F1 \u2191": 0.2222222222222222,
+      "AUC \u2191": 0.5667438271604938,
+      "ECE \u2193": 0.3783283866941929,
+      "Brier \u2193": 0.8315954062150691,
+      "Inference Cost \u2193": 0.0066,
+      "Final Score": 0.46362116482791865,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 8,
+      "Architecture": "DenseNet-121",
+      "UQ Method": "Evidential DL",
+      "Accuracy": 0.25,
+      "F1 \u2191": 0.13333333333333333,
+      "AUC \u2191": 0.6645447530864198,
+      "ECE \u2193": 0.7332534193992615,
+      "Brier \u2193": 1.461968648766592,
+      "Inference Cost \u2193": 0.0032,
+      "Final Score": 0.1377382394652666,
+      "Final Recommendation": ""
+    },
+    {
+      "Rank": 9,
+      "Architecture": "DenseNet-121",
+      "UQ Method": "MC Dropout",
+      "Accuracy": 0.25,
+      "F1 \u2191": 0.13333333333333333,
+      "AUC \u2191": 0.587962962962963,
+      "ECE \u2193": 0.7477545738220215,
+      "Brier \u2193": 1.4941080146632177,
+      "Inference Cost \u2193": 0.0613,
+      "Final Score": 0.007346393590616896,
+      "Final Recommendation": ""
+    }
+  ]
+}

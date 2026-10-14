@@ -18,52 +18,25 @@ from . import config, preprocessing
 
 
 class ADStagingDataset(Dataset):
-    def __init__(self, manifest, filepaths, transform=None, cache=True):
+    def __init__(self, manifest: pd.DataFrame, filepaths: list, transform=None):
         self.transform = transform
-
-        subset = manifest[
-            manifest["filepath"].isin(filepaths)
-        ].reset_index(drop=True)
-
+        subset = manifest[manifest["filepath"].isin(filepaths)].reset_index(drop=True)
+        # Preserve filepath order as given (already shuffled upstream by the splitter)
         order = {p: i for i, p in enumerate(filepaths)}
         subset["_order"] = subset["filepath"].map(order)
-
-        self.manifest = (
-            subset.sort_values("_order")
-            .drop(columns="_order")
-            .reset_index(drop=True)
-        )
-
-        self.cache = cache
-        self.images = []
-
-        if self.cache:
-            print(f"Caching {len(self.manifest)} preprocessed images...")
-
-            for path in self.manifest["filepath"]:
-                arr = preprocessing.preprocess_slice(path)
-                self.images.append(
-                    torch.from_numpy(arr).unsqueeze(0).float()
-                )
+        self.manifest = subset.sort_values("_order").drop(columns="_order").reset_index(drop=True)
 
     def __len__(self):
         return len(self.manifest)
 
     def __getitem__(self, idx):
-        if self.cache:
-            x = self.images[idx].clone()
-        else:
-            row = self.manifest.iloc[idx]
-            arr = preprocessing.preprocess_slice(row["filepath"])
-            x = torch.from_numpy(arr).unsqueeze(0).float()
-
+        row = self.manifest.iloc[idx]
+        std_arr = preprocessing.preprocess_slice(row["filepath"])
         if self.transform:
-            # IMPORTANT:
-            # transform should now operate on tensors
-            x = self.transform(x)
-
-        y = int(self.manifest.iloc[idx]["class_idx"])
-
+            x = self.transform(std_arr)
+        else:
+            x = torch.from_numpy(std_arr).unsqueeze(0).float()
+        y = int(row["class_idx"])
         return x, y
 
 

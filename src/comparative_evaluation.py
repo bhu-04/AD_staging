@@ -106,15 +106,7 @@ def run_comparative_study(loaders: dict) -> dict:
         bedl_model = model_fn()
         bedl_ckpt_path = config.CHECKPOINT_DIR / f"{name.lower()}_bedl_best.pt"
         t0 = time.time()
-        bedl_mod.train_bedl(
-            bedl_model,
-            loaders["train"],
-            loaders["val"],
-            lr=config.BEDL_LEARNING_RATE,
-            epochs=config.EPOCHS,
-            max_attempts=config.BEDL_MAX_ATTEMPTS,
-            checkpoint_path=bedl_ckpt_path,
-        )
+        bedl_mod.train_bedl(bedl_model, loaders["train"], loaders["val"], checkpoint_path=bedl_ckpt_path)
         bedl_train_time = time.time() - t0
 
         bedl_model.load_state_dict(torch.load(bedl_ckpt_path, map_location="cpu"))
@@ -135,11 +127,7 @@ def run_comparative_study(loaders: dict) -> dict:
     # --- Compare, run stats, and select ---
     comparison_df = evaluate.compare_combinations(reports)
     stats_df = evaluate.statistical_comparison(all_results)
-    if "f1_macro" in comparison_df.columns:
-        best_name = comparison_df.sort_values(["f1_macro", "accuracy"], ascending=False).index[0]
-        decision = {"recommended_combination": str(best_name), "selection_rule": "Highest macro-F1; accuracy used as tie-breaker."}
-    else:
-        decision = evaluate.select_best_combination(comparison_df, stats_df=stats_df)
+    decision = evaluate.select_best_combination(comparison_df, stats_df=stats_df)
 
     return {
         "comparison_df": comparison_df,
@@ -148,6 +136,7 @@ def run_comparative_study(loaders: dict) -> dict:
         "checkpoints": checkpoints,
         "reports": reports,
         "timings": timings,
+        "all_results": all_results,
     }
 
 
@@ -194,4 +183,4 @@ if __name__ == "__main__":
     print("\nDecision:")
     print(json.dumps(results["decision"], indent=2))
 
-    plot_comparison_bars(results["comparison_df"], config.PLOTS_DIR / "combination_comparison.png") 
+    plot_comparison_bars(results["comparison_df"], config.PLOTS_DIR / "combination_comparison.png")

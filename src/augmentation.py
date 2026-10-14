@@ -30,21 +30,20 @@ def _to_tensor(arr: np.ndarray) -> torch.Tensor:
     return torch.from_numpy(arr).unsqueeze(0).float()
 
 
-def get_train_transform(rotation_degrees=10.0,
-                        jitter_strength=0.1):
-
+def get_train_transform(rotation_degrees: float = 10.0,
+                         jitter_strength: float = 0.1):
+    """Augmentations applied only to the training split."""
     return transforms.Compose([
+        _to_tensor,
         transforms.RandomHorizontalFlip(p=0.5),
         transforms.RandomRotation(degrees=rotation_degrees),
-        transforms.ColorJitter(
-            brightness=jitter_strength,
-            contrast=jitter_strength
-        ),
+        transforms.ColorJitter(brightness=jitter_strength, contrast=jitter_strength),
     ])
 
 
 def get_eval_transform():
-    return transforms.Compose([])
+    """No augmentation for val/test -- deterministic evaluation."""
+    return transforms.Compose([_to_tensor])
 
 
 if __name__ == "__main__":
